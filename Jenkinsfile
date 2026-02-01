@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('DockerHub')
+        DOCKERHUB_CREDENTIALS = credentials('dockerhub')
         IMAGE_NAME = 'bheemararakesh/flask-portfolio'
     }
 
